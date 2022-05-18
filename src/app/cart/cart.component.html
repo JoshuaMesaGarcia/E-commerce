@@ -1,0 +1,22 @@
+<div class="cart-component">
+    <div class="cart-card">
+        <p>Cart</p>
+
+        <div *ngIf="numberOfProduct > 0">
+            <div class="product-description">
+                <img src="../../assets/images/image-product-1.jpg" width="50" height="50" alt="">
+                <div class="product-amount">
+                    <p>Autumn Limited Edition...</p>
+                    <p>€125.00 x <span>{{numberOfProduct}}</span> &nbsp; <span>{{125 * numberOfProduct}}.00</span></p> 
+                </div>   
+            </div>
+            <button class="btn">Checkout</button>
+        </div>
+        
+        <div *ngIf="numberOfProduct == 0">
+            <div class="product-empty">
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+    </div>
+</div>

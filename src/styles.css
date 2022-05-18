@@ -1,1 +1,8 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Rubik&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
